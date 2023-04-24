@@ -1,102 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: "Avenir Next";
-}
-
-li {
-  list-style: none;
-}
-
-.header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 90px;
-}
-
-.header-logo {
-  float: left;
-  font-size: 36px;
-  padding: 20px 40px;
-}
-
-.header-list li {
-  float: left;
-  padding: 33px 20px;
-}
-
-.main {
-  padding: 100px 80px;
-}
-
-.copy-container h1 {
-  font-size: 140px;
-}
-
-.copy-container h2 {
-  font-size: 60px;
-}
-
-.copy-container span {
-  color: #ff4a4a;
-}
-
-.contents {
-  height: 500px;
-  margin-top: 100px;
-}
-
-.section-title {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
-}
-
-.contents-item {
-  float: left;
-  margin-right: 40px;
-}
-
-.contents-item p {
-  font-size: 24px;
-  margin-top: 30px;
-}
-
-.contact-form {
-  padding-top: 100px;
-}
-
-/* inputとtextareaのCSSを指定してください */
-input,textarea{
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  font-family: 'Meiryo', sans-serif;
+  line-height: 1.6;
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
-  font-size: 18px;
-  border: 1px solid #dee7ec;
+  background-color: #f2f2f2;
 }
 
-/* contact-submitのCSSを指定してください */
-.contact-submit{
-  background-color: #dee7ec;
-  color: #889eab;
-}
-
-.footer {
-  background-color: #2f5167;
+header {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #4a90e2;
   color: #fff;
-  height: 120px;
-  padding: 40px;
+  margin-bottom: 20px;
 }
 
-.footer-logo {
-  float: left;
-  font-size: 32px;
+h1, h2 {
+  margin-bottom: 10px;
 }
 
-.footer-list {
-  float: right;
+.introduction, .images {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.footer-list li {
-  padding-bottom: 20px;
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+figure {
+  background-color: #e1e1e1;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 5px;
+}
+
+figcaption {
+  margin-top: 10px;
+  color: #333;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
