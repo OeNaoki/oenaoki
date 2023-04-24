@@ -1,78 +1,78 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Meiryo', sans-serif;
-  line-height: 1.6;
-  max-width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  background-color: #f2f2f2;
+    font-family: 'Meiryo', sans-serif;
+    line-height: 1.6;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f2f2f2;
 }
 
 header {
-  width: 100%;
-  padding: 20px 0;
-  text-align: center;
-  background-color: #4a90e2;
-  color: #fff;
-  margin-bottom: 20px;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: #4a90e2;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 h1, h2 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .introduction, .images {
-  width: 100%;
-  max-width: 800px;
-  margin-bottom: 20px;
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .image-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 10px;
 }
 
 figure {
-  background-color: #e1e1e1;
-  padding: 10px;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 img {
-  max-width: 250px;
-  height: auto;
-  border-radius: 5px;
+    max-width: 250px;
+    height: auto;
+    border-radius: 5px;
 }
 
 figcaption {
-  margin-top: 10px;
-  color: #333;
+    margin-top: 10px;
+    color: #333;
 }
 
 footer {
-  background-color: #ffffff;
-  padding: 10px;
-  border-radius: 10px;
-  margin-top: 20px;
-  width: 100%;
-  max-width: 800px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
