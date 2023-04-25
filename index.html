@@ -1,40 +1,71 @@
 <!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自己紹介</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>大江直紀のホームページ</title>
     <link rel="stylesheet" href="stylesheet.css">
-</head>
-<body>
-    <header>
-        <h1>大江 直紀のホームページ</h1>
-    </header>
-    <main>
-        <section class="introduction">
-            <h2>自己紹介</h2>
-            <p>こんにちは！大江直紀です。こちらは私の自己紹介ページです。</p>
-        </section>
-        <section class="images">
-            <h2>お気に入りの写真</h2>
-            <div class="image-container">
-                <figure>
-                    <img src="towada.jpg" alt="画像1">
-                    <figcaption>ここは私のお気に入りの場所です。</figcaption>
-                </figure>
-                <figure>
-                    <img src="yuki.jpg" alt="画像2">
-                    <figcaption>最高の休日の思い出。</figcaption>
-                </figure>
-                <figure>
-                    <img src="nebuta.jpg" alt="画像3">
-                    <figcaption>素晴らしい景色を楽しんでいます。</figcaption>
-                </figure>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>slamdunkの桜木花道のように「素人で悪いか」という気持ちで頑張ります！</p>
-    </footer>
-</body>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-logo">Naoki Oe 大江 直紀</div>
+      <div class="header-list">
+        <ul>
+          <li>Profile</li>
+          <li>Memory</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="copy-container">
+        <h1>Profile</h1>
+        <h2>はじめまして。製薬会社の新規事業開発を担当する部署に所属しています。現在34歳で4歳の娘を持つ父です。東京と青森の往復生活中です。
+        </h2>
+      </div>
+      
+      <div class="contents">
+        <h3 class="section-title">Memory@Aomori</h3>
+        <div class="contents-item">
+          <img src="towada.jpg">
+          <p>皆の願いを込めたランタン@十和田湖</p>
+        </div>
+        <div class="contents-item">
+          <img src="nebuta.jpg">
+          <p>巨大なねぶた@五所川原</p>
+        </div>
+        <div class="contents-item">
+          <img src="hirosaki.jpg">
+          <p>やっとSuica使えるのか（笑）@桜が人気の弘前</p>
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        <h3 class="section-title">Slackにてお気軽にご連絡ください</h3>
+        <p>メールアドレス（必須）</p>
+        <!-- <input>要素を追加してください -->
+        <input>
+        
+        <p>お問い合わせ内容（必須）</p>
+        <!-- <textarea>要素を追加してください -->
+        <textarea></textarea>
+        
+        <p>※必須項目は必ずご入力ください</p>
+        <!-- <input>要素を追加してください -->
+        <input class="contact-submit" type="submit" value="送信">
+        
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer-logo">もっといろいろ試したいけど今回はここまで</div>
+      <div class="footer-list">
+        <ul>
+          <li>Ver1 2023/4/25</li>
+          <li>Ver2 </li>
+          <li>Ver3</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
