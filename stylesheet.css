@@ -1,5 +1,9 @@
 body {
-  font-family: "Avenir Next";
+  font-family: "Avenir Next", sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
 }
 
 li {
@@ -7,38 +11,55 @@ li {
 }
 
 .header {
-  background-color: #26d062;
+  background-color: #2f5167;
   color: #fff;
   height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header-logo {
-  float: left;
   font-size: 36px;
-  padding: 20px 40px;
+}
+
+.header-list ul {
+  display: flex;
 }
 
 .header-list li {
-  float: left;
-  padding: 33px 20px;
+  padding: 0 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.header-list li:hover {
+  color: #26d062;
 }
 
 .main {
-  padding: 100px 80px;
+  max-width: 1200px;
+  padding: 100px 40px;
+  margin: 0 auto;
 }
 
 .copy-container h1 {
-  font-size: 30px;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 .copy-container h2 {
   font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 40px;
 }
 
-
 .contents {
-  height: 500px;
-  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -49,8 +70,15 @@ li {
 }
 
 .contents-item {
-  float: left;
-  margin-right: 40px;
+  width: 30%;
+  text-align: center;
+}
+
+.contents-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
 }
 
 .contents-item p {
@@ -62,38 +90,56 @@ li {
   padding-top: 100px;
 }
 
-/* inputとtextareaのCSSを指定してください */
-input,textarea{
-  width: 400px;
+input, textarea {
+  width: 100%;
   margin-top: 10px;
   margin-bottom: 30px;
-  padding: 20px;
+  padding: 12px;
   font-size: 18px;
   border: 1px solid #dee7ec;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-/* contact-submitのCSSを指定してください */
-.contact-submit{
-  background-color: #dee7ec;
-  color: #889eab;
+textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+.contact-submit {
+  background-color: #2f5167;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-submit:hover {
+  background-color: #26d062;
 }
 
 .footer {
   background-color: #2f5167;
   color: #fff;
   height: 120px;
-  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .footer-logo {
-  float: left;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .footer-list {
-  float: right;
 }
 
 .footer-list li {
   padding-bottom: 20px;
+  font-size: 14px;
 }
