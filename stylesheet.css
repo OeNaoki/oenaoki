@@ -71,13 +71,11 @@ li {
 .contents-wrapper {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .contents-item {
   width: 30%;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .contents-item img {
