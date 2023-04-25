@@ -40,7 +40,7 @@ li {
 
 .main {
   max-width: 1200px;
-  padding: 100px 40px;
+  padding: 50px 40px;
   margin: 0 auto;
 }
 
@@ -58,7 +58,7 @@ li {
 .contents {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .section-title {
@@ -94,7 +94,7 @@ li {
 }
 
 .contact-form {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 input, textarea {
@@ -109,7 +109,7 @@ input, textarea {
 }
 
 textarea {
-  height: 200px;
+  height: 100px;
   resize: vertical;
 }
 
